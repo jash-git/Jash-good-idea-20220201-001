@@ -1,0 +1,9 @@
+PLC的ST編程方式(GX Works2) ~ 結構化文本語言表面上與 PASCAL語言很相似
+
+資料來源: https://www.twblogs.net/a/5db33d75bd9eee310ee67946
+http://www.phelipu.com.tw/download/GX-Works2%20Beginner's%20Guide%20Manual(Simple%20Project)_cht.pdf
+http://www.phelipu.com.tw/homeweb/catalog_detail.php?infoscatid=21&ifid=40
+http://eleshoptw.blogspot.com/2015/04/gx-works2-198c.html
+
+
+序號使用 GX Developer 通用
