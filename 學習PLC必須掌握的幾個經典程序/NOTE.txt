@@ -1,0 +1,17 @@
+學習PLC必須掌握的幾個經典程序
+
+資料來源:https://mp.weixin.qq.com/s/Tk3LRe9g-s01bzlyL6tt6w
+
+PART1.自鎖（啟保停）
+
+PART2.連鎖和互鎖（正反轉）
+
+PART3.閃爍電路（報警燈）
+
+PART4.延時接通和延時斷開
+
+PART5.交替輸出（單按鈕控制啟停）
+
+PART5.交替輸出（單按鈕控制啟停）
+
+PART7.點動加連動運行秘籍
