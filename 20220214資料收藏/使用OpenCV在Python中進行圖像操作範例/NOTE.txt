@@ -1,0 +1,16 @@
+使用OpenCV在Python中進行圖像操作範例
+
+資料來源: https://mp.weixin.qq.com/s/kiUn9O6VznOy5jeDTTpgMg
+https://github.com/prateekmaj21/Image-Processing-Tasks/tree/main/OPEN%20CV%20Image%20Operations
+
+01.讀取圖像
+02.遮罩運算
+03.保存圖像
+04.膨脹運算
+05.創建邊框
+06.鏡像運算
+07.強度變換
+08.對數變換
+09.線性變換
+10.去噪彩色圖像
+11.使用直方圖分析圖像

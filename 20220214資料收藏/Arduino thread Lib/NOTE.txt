@@ -1,0 +1,6 @@
+Arduino thread Lib
+
+資料來源:
+https://www.arduinolibraries.info/libraries/arduino-thread
+https://www.arduino.cc/reference/en/libraries/thread/
+https://www.arduino.cc/reference/en/libraries/protothreads/
