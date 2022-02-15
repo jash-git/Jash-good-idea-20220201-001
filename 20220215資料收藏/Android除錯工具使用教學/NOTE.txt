@@ -1,0 +1,12 @@
+Android除錯工具教學
+
+資料來源: http://www.aaronlife.com/v1/teaching/android_debug_tool.html
+https://rx1226.pixnet.net/blog/post/312680688
+https://kknews.cc/zh-tw/code/ljlpj4e.html
+https://sa123.cc/wm87r7nhetx3ue3rl4cu.html
+https://sa123.cc/yucauc8312uc8ej5k1uo.html
+
+錯誤類型VS除錯方式
+    01.編輯器錯誤訊息 [語法錯誤~未編譯前]
+    02.專用LOG訊息輸出 [運行過程追中]
+	03.除錯器 [中斷點除錯]
