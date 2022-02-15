@@ -1,0 +1,4 @@
+基於OpenCV的圖像形狀檢測(含源碼)
+
+資料來源: https://mp.weixin.qq.com/s/s1DxOrlQsMWfN7yUrKivvg
+https://github.com/akshaybhatia10/ComputerVision-Projects/tree/master/FindShapes
