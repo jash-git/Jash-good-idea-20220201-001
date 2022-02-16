@@ -1,0 +1,24 @@
+all: dynamic
+
+dynamic:
+	gcc -fPIC -c deque_int.c
+	gcc -shared -o libalgodequei.so deque_int.o
+
+static: deque_int.o
+	ar rcs -o libalgodequei.a deque_int.o
+
+test: test_deque_int.out
+	./test_deque_int.out
+	echo $$?
+
+test_deque_int.out: deque_int.o test_deque_int.o
+	gcc -o test_deque_int.out test_deque_int.o deque_int.o
+
+test_deque_int.o:
+	gcc -c test_deque_int.c
+
+deque_int.o:
+	gcc -c deque_int.c
+
+clean:
+	rm -f test_deque_int.out *.o *.so *.a

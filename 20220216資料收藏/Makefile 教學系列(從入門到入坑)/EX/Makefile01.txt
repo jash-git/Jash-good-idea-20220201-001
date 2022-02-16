@@ -1,0 +1,32 @@
+CC=gcc
+CFLAGS_DEBUG=-Wall -Wextra -g -std=c99
+CFLAGS_RELEASE=-Wall -Wextra -O2 -std=c99
+
+OBJS=test_deque_int.o deque_int.o
+TEST_PROG=test_deque_int.out
+
+all: dynamic
+
+dynamic:
+	$(CC) $(CFLAGS_RELEASE) -fPIC -c deque_int.c
+	$(CC) $(CFLAGS_RELEASE) -shared -o libalgodeque.so deque_int.o
+
+static:
+	$(CC) $(CFLAGS_RELEASE) -c deque_int.c
+	ar rcs -o libalgodeque.a deque_int.o
+
+test: $(TEST_PROG)
+	./$(TEST_PROG)
+	echo $$?
+
+$(TEST_PROG): $(OBJS)
+	$(CC) $(CFLAGS_DEBUG) -o $(TEST_PROG) $(OBJS)
+
+test_deque_int.o:
+	$(CC) $(CFLAGS_DEBUG) -c test_deque_int.c
+
+deque_int.o:
+	$(CC) $(CFLAGS_DEBUG) -c deque_int.c
+
+clean:
+	$(RM) $(TEST_PROG) *.o *.so *.a

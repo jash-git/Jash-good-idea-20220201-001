@@ -1,0 +1,43 @@
+# Clean the default value of CC.
+CC=
+
+ifndef CC
+	CC=gcc
+endif
+
+ifndef CFLAGS
+	ifeq ($(TARGET),Debug)
+		CFLAGS=-Wall -Wextra -g -std=c99
+	else
+		CFLAGS=-Wall -Wextra -O2 -std=c99
+	endif  # TARGET
+endif  # CFLAGS
+
+OBJS=test_deque_int.o deque_int.o
+TEST_PROG=test_deque_int.out
+
+# Pure targets.
+.PHONY: all dynamic static test clean
+
+all: dynamic
+
+dynamic:
+	$(CC) $(CFLAGS) -fPIC -c deque_int.c
+	$(CC) $(CFLAGS) -shared -o libalgodeque.so deque_int.o
+
+static: deque_int.o
+	$(AR) rcs -o libalgodeque.a deque_int.o
+
+test: $(TEST_PROG)
+	./$(TEST_PROG)
+	echo $$?
+
+$(TEST_PROG): $(OBJS)
+	$(CC) $(CFLAGS) -o $(TEST_PROG) $(OBJS)
+
+# Pattern rules.
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	$(RM) $(TEST_PROG) *.o *.so *.a
