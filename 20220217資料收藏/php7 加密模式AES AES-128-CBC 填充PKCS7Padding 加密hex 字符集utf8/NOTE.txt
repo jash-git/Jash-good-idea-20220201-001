@@ -1,0 +1,3 @@
+php7 加密模式AES AES-128-CBC 填充PKCS7Padding 加密hex 字符集utf8 [USBWEBSERVER測試成功]
+
+資料來源: https://www.twblogs.net/a/5d438203bd9eee5327fb2d96

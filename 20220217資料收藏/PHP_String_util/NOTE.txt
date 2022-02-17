@@ -1,0 +1,43 @@
+PHP 字串轉字元陣列/字元陣列轉字串/字元陣列轉十六進制字串/十六進制字串轉字元陣列/十六進制字串轉一般字串 [PHP_String_util]
+
+資料來源: https://gist.github.com/miguelmota/8f235b9dfd1ff1dda1d63c1df77a861e
+
+include - 引用 函數庫/函示庫
+
+unpack - 函數從二進製字符串對數據進行解包
+	unpack(format,data)
+		参数	描述
+		format	必需。规定在解包数据时所使用的格式。
+		data	可选。规定被解包的二进制数据。
+		format 参数的可能值：
+		a - NUL-padded string
+		A - SPACE-padded string
+		h - Hex string, low nibble first
+		H - Hex string, high nibble first
+		c - signed char
+		C - unsigned char
+		s - signed short (always 16 bit, machine byte order)
+		S - unsigned short (always 16 bit, machine byte order)
+		n - unsigned short (always 16 bit, big endian byte order)
+		v - unsigned short (always 16 bit, little endian byte order)
+		i - signed integer (machine dependent size and byte order)
+		I - unsigned integer (machine dependent size and byte order)
+		l - signed long (always 32 bit, machine byte order)
+		L - unsigned long (always 32 bit, machine byte order)
+		N - unsigned long (always 32 bit, big endian byte order)
+		V - unsigned long (always 32 bit, little endian byte order)
+		f - float (machine dependent size and representation)
+		d - double (machine dependent size and representation)
+		x - NUL byte
+		X - Back up one byte
+		@ - NUL-fill to absolute position
+	
+array_map - 將陣列依照函數規則進行運算
+
+join - 將陣列組合為一個字符串
+
+hex2bin - 將16進制數字字符串轉成一般字串
+
+bin2hex - 將一般字串轉成16進制數字字符串
+
+var_dump - 顯示變數型態和變數的所有數值

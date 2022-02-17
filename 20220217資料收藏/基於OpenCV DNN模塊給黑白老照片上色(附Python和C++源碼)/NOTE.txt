@@ -1,0 +1,4 @@
+基於OpenCV DNN模組給黑白老照片上色（附Python/C++源碼）~ 載入現成模型
+
+資料來源: https://mp.weixin.qq.com/s/04_UtnP-56MaoOI3d1MSsg
+
