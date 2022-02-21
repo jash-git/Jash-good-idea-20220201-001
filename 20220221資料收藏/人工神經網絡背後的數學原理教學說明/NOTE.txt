@@ -1,0 +1,7 @@
+人工神經網絡背後的數學原理教學說明
+
+資料來源: https://mp.weixin.qq.com/s/ddtGYZMRl-TcnqH4GpQT5w
+
+01.梯度下降到底在幹什麼
+
+02.人工神經網絡（ANN）

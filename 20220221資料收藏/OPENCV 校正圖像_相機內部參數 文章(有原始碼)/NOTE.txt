@@ -1,0 +1,7 @@
+OPENCV 校正圖像_相機內部參數 文章(有原始碼)
+
+資料來源:
+OpenCV相機標定與畸變校正 ~ https://www.gushiciku.cn/pl/pkvA/zh-tw
+What Is Camera Calibration? ~ https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20calibration%20algorithm%20calculates%20the,focal%20length%20of%20the%20camera.
+Camera calibration With OpenCV ~ https://docs.opencv.org/3.4.7/d4/d94/tutorial_camera_calibration.html
+Camera Calibration ~ https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html

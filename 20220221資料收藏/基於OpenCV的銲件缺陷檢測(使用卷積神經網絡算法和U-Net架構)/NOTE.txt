@@ -1,0 +1,4 @@
+基於OpenCV的銲件缺陷檢測(使用卷積神經網絡算法和U-Net架構)(有原始碼)
+
+資料來源: https://mp.weixin.qq.com/s/O_mqc7ksvXTQWiThjVGvyA
+https://github.com/malakar-soham/cnn-in-welding
