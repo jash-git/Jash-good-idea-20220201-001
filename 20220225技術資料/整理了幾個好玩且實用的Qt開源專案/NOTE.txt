@@ -1,0 +1,21 @@
+整理了幾個好玩且實用的Qt開源專案
+
+資料來源: https://mp.weixin.qq.com/s/F2FbsfF2wOXFmmADhGiGbA
+
+tiled 遊戲2D地圖編輯器
+地址：https://github.com/mapeditor/tiled
+
+WizQTClient為知筆記跨平台客戶端
+地址：https://github.com/WizTeam/WizQTClient
+
+DB4S 用於SQLite 的數據庫瀏覽器
+地址：https://github.com/sqlitebrowser/sqlitebrowser
+
+GoldenDict詞典查詢程序
+地址：https://github.com/goldendict/goldendict
+
+QtAV多媒體播放庫
+地址：https://github.com/wang-bin/QtAV
+
+JQTools[為Jason Qt Tools 的簡稱]
+地址：https://github.com/188080501/JQTools

@@ -1,0 +1,4 @@
+使用OpenCV搭建違章停車檢測系統 [物體/障礙物 入侵偵測](原始碼)
+
+資料來源: https://mp.weixin.qq.com/s/rN8JQ9bT2h-U9HRbFcEDpQ
+https://github.com/hasantha-nirmal/Traffic_Violation_Detection_Yolov4_Deep-Sort
